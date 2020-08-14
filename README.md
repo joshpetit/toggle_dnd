@@ -1,5 +1,24 @@
 # toggle_dnd
 A shell script to toggle do not disturb on and off in the gnome desktop environment
 
-## Instillation
-```git clone ```
+### Instillation and Usage
+```
+$ git clone https://github.com/joshpetit/toggle_dnd.git
+$ cd toggle_dnd
+$ ./toggle_dnd
+```
+
+### Keyboard Shortcut
+Create a keyboard shortcut in settings panel
+to quickly toggle the setting.
+```
+Settings > Keyboard Shortcuts > Custom Shortcuts > +
+```
+Name: toggle_dnd
+
+command: /absolute/path/to/toggle_dnd
+
+shortcut: \[Keys\]
+
+## Very Important
+Have a nice day :)
