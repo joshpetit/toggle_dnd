@@ -1,6 +1,5 @@
 #!/bin/bash
 value=$(gsettings get org.gnome.desktop.notifications show-banners)
-echo "$value"
 if [[ $value == 'true' ]]
 then
   gsettings set org.gnome.desktop.notifications show-banners false
