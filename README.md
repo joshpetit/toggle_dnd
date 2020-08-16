@@ -1,5 +1,7 @@
 # toggle_dnd
 A shell script to toggle do not disturb on and off in the gnome desktop environment.
+Note: After fiddling around, I noticed that you can just press `Super + V` and then `Space` to toggle Do Not Disturb.
+This script will help make it a single hotkey though.
 
 ### Installation and Usage
 ```
